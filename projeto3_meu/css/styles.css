@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body {
+    background-color: rgb(253, 246, 236);
+}
+/*Navbar*/
+.navbar-container {
+    background-color: blanchedalmond;
+    width: auto;
+    height: 100px;
+    font-weight: bold;
+}
+.logo {
+    width: 100px;
+    padding-left: 20px;
+}
+.navbar-list {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.navbar-list a {
+    text-decoration: none;
+    color: #C26DA4;
+    transition: 0.5s;
+}
+.navbar-list a:hover {
+    color: #b986a7
+}
+.navbar-list li {
+    display: inline-block;
+    margin: 35px;
+}
+.entrar {
+    padding: 15px 20px;
+    background-color: #F0C1AF;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.navbar-list .entrar:hover {
+    background-color: #C26DA4;   
+    color: #fff;    
+}
+
+/*Main banner*/
+.main {
+    background-image: url(/projeto3_meu/img/mainbanner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 9rem 0;
+}
+.main h1, p {
+    text-align: center;
+    color: #F0C1AF;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+.main h1 {
+    font-size: 58px;
+}
+.main p {
+    font-size: 28px;
+}
+
+/*Vantagens*/
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: 50px
+}
+.fa-shield-alt {
+    color: #7ed4a1;
+}
+.fa-heart {
+    color: #C26DA4;
+}
+.fa-comments {
+    color: #EF8F29;
+}
+.lista-vantagens {
+    display: flex;
+}
+.lista-vantagens ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.lista-vantagens li{
+    flex: 1 1 200px;
+    text-align: center;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.lista-vantagens p {
+    color: #5a595a;
+    font-weight: normal;
+    text-shadow: none;
+}
+.lista-vantagens h3 {
+    color: #5a595a;
+    margin-bottom: 25px;
+}
+
+/*Planos*/
+.planos-precos {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.planos-precos p,
+h3 {
+    color: #5a595a;
+    text-shadow: none;
+}
+.planos-precos h3 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+.planos-precos p {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 15px;
+}
+.plano {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+.plano ul {
+    padding: 0;
+}
+.plano li {
+    list-style: none;
+    background-color: rgb(253, 246, 236);
+    color: #5a595a;
+    font-weight: 500;
+    height: 55px;
+    padding: 5px;
+}
+.plano .preco {
+    background-color: #7ed4a1;
+    border-radius: 50%;width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto -50px;
+    position: relative;
+    font-weight: bold;
+    font-size: 23px;
+    color: blanchedalmond;
+    position: relative;
+    line-height: 120px; /*Quem centraliza o título na bola*/
+}
+.planos-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.plano .nome-plano {
+    background-color: blanchedalmond;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #C26DA4;
+    line-height: 120px;
+    height: 80px;
+    font-size: 20px;
+}
+.plano .saber-mais {
+    background-color: #7ed4a1;
+    font-weight: bold;
+    font-size: 23px;
+    color: blanchedalmond;
+    line-height: 50px;
+    cursor: pointer;
+    padding: 10px;
+    height: 50px;
+    opacity: 1;
+}
+.plano .saber-mais:hover {
+    opacity: 0.8;
+}
+.plano .recommended {
+    background-color: #f45c57;
+    opacity: 1;
+}
+.plano .recommended:hover {
+    opacity: 0.8;
+}
+
+/*Área de busca*/
+.busca {
+    background-color: blanchedalmond;
+    text-align: center;
+    color: #5a595a;
+}
+.busca h2 {
+    font-size: 50px;
+    padding-top: 50px;
+}
+.busca p {
+    font-size: 25px;
+    text-shadow: none;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.busca .entrada{
+    height: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.busca .buscar{
+    height: 60px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F0C1AF;
+    color:#C26DA4;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-bottom: 60px;
+}
+.busca .buscar:hover {
+    background-color: #C26DA4;   
+    color: #fff;
+}
+
+/*Contato*/
+.contato {
+    text-align: center;
+    color: #5a595a;
+}
+.contato h2 {
+    font-size: 50px;
+    padding-top: 50px;
+}
+.contato p {
+    font-size: 25px;
+    text-shadow: none;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    color: #5a595a;
+}
+.contato input {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.contato input[type="text"] {
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+.contato input[type="email"] {
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 auto 20px;
+}
+.contato textarea {
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto 20px;
+    height: 150px;
+    width: 450px;
+    border: solid 1px #ccc;
+}
+.contato input[type="submit"]{
+    height: 40px;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F0C1AF;
+    color:#C26DA4;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 0.5s;
+    display: block;
+    margin: 0 auto; /*sempre quando quiser colocar algo no meio*/
+}
+.contato input[type="submit"]:hover {
+    background-color: #C26DA4;   
+    color: #fff;
+}
+
+/*Footer*/
+footer {
+    background-image: url(/projeto3_meu/img/cupidologo.png);
+    background-size: 100px;
+    height: 100px;
+}
+footer p {
+    text-align: center;
+    color: #5a595a;
+    text-shadow: none;
+    margin: 150px 0 10px;    
+}
+
+/*Responsividade*/
+/*Small laptops a partir de 1100px*/
+@media (max-width:1100px) {
+    .planos-container {
+        width: 95%;
+    }
+    .plano {
+        margin: 0 5px;
+    }
+}
+
+/*Tablet 900px*/
+@media (max-width:900px) {
+    .plano {
+        margin: 0 2px;
+    }
+    .plano .nome-plano{
+        font-size: 15px;
+    }
+    .plano li {
+        font-size: 15px;
+    }
+}
+
+/*Smartphone 576px*/
+@media (max-width: 576px) {
+    html, 
+    body {
+        overflow-x: hidden;
+    }
+    .navbar-list li {
+        font-size: 13px;
+        margin: 4px;
+        padding-top: 40px;
+    }
+    .lista-vantagens {
+        flex-direction: column;
+    }
+    .planos-container {
+        flex-direction: column;   
+        padding: 0 3.5rem;
+    }
+    .plano {
+        padding: 20px;
+    }
+    .busca h2 {
+        font-size: 25px;
+    }
+    .busca p {
+        font-size: 18px;
+    }
+    .contato h2 {
+        font-size: 25px;
+    }
+    .contato p {
+        font-size: 18px;
+        padding: 30px;
+    }
+    .contato textarea {
+        width: 250px;
+        height: 150px;
+    }
+    .logo {
+        width: 90px;
+        padding-left: 10px;
+    }
+}

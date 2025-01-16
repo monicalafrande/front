@@ -1,0 +1,90 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.required-field {
+    color: red;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid rgb(78, 45, 1);
+    background-color: beige;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+}
+
+body{
+    background-color:rgb(252, 225, 229);
+    color:rgb(78, 45, 1);
+}
+.header{
+    background-color:lightpink;
+    height: 160px;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: beige;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.form-header p {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 1px solid rgb(78, 45, 1);
+}
+
+.form-body {
+    padding: 20px;
+}
+.form-body h1,
+p {
+    padding: 0 0 20px 0;
+}
+
+.box-input {
+    margin: 15px 0 15px 0;
+}
+
+.lista-recheios {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.submit {
+    cursor: pointer;
+    background-color: lightpink;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.5s;
+}
+.submit:hover {
+    background-color: rgb(252, 225, 229);
+    border: 1px solid lightpink;
+}
+.recheios {
+    display: inline-block;
+}
+.box-input [type="file"] {
+    margin: 15px 0 15px 0;
+}

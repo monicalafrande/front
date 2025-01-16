@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte o seu bolo</title>
+    <link rel="stylesheet" href="/projeto2_meu/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Escolha as suas preferências para o bolo</h2>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1>Monte o seu bolo</h1>
+                <p>Descreva o seu bolo e adicione os opcionais desejados!</p>
+                <form>
+                    <div class="box-input">
+                        <label for="nome">Nome completo <span class="required-field">*</span></label>
+                        <input type="text" name="nome" id="nome" class="block" placeholder="Digite seu nome completo" minlength="1" maxlength="50" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="email">E-mail <span class="required-field">*</span></label>
+                        <input type="email" name="email" id="email" class="block" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="telefone">Telefone <span class="required-field">*</span></label>
+                        <input type="tel" name="telefone" id="telefone" class="block" placeholder="(99) 9999-9999" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="endereco">Endereço <span class="required-field">*</span></label>
+                        <input type="text" name="endereco" id="endereco" class="block" placeholder="Digite o endereço para entrega" minlength="1" maxlength="50" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="descricao">Descrição <span class="required-field">*</span></label>
+                        <textarea name="descricao" id="descricao" class="block" placeholder="Digite aqui como deseja o seu bolo com detalhes, por exemplo informações sobre a decoração"></textarea>
+                    </div>
+                    <div class="box-input">
+                        <label for="entrega">Data de entrega <span class="required-field">*</span></label>
+                        <input type="date" name="entrega" id="entrega" class="block" required>
+                    </div>
+                    <div class="box-input">
+                        <p>Formato do bolo <span class="required-field">*</span></p>
+                        <input type="radio" name="formato" id="quadrado">
+                        <label for="quadrado">Quadrado</label>
+                        <input type="radio" name="formato" id="redondo">
+                        <label for="redondo">Redondo</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Massa <span class="required-field">*</span></p>
+                        <input type="radio" name="massa" id="branca">
+                        <label for="branca">Branca</label>
+                        <input type="radio" name="massa" id="chocolate">
+                        <label for="chocolate">Chocolate</label>
+                        <input type="radio" name="massa" id="mista">
+                        <label for="mista">Branca e chocolate</label>
+                    </div>
+                    <div class="box-input">
+                        <p>Tamanhos <span class="required-field">*</span></p>
+                        <input type="radio" name="tamanho" id="5fatias">
+                        <label for="5fatias">5 fatias</label>
+                        <input type="radio" name="tamanho" id="10fatias">
+                        <label for="10fatias">10 fatias</label>
+                        <input type="radio" name="tamanho" id="15fatias">
+                        <label for="15fatias">15 fatias</label>
+                        <input type="radio" name="tamanho" id="25fatias">
+                        <label for="25fatias">25 fatias</label>
+                        <input type="radio" name="tamanho" id="35fatias">
+                        <label for="35fatias">35 fatias</label>
+                    </div>
+                    <div class="recheios">
+                        <p>Recheios (escolha até 3 opções) <span class="required-field">*</span></p>
+                        <ul class="lista-recheios">
+                            <li>
+                                <input type="checkbox" name="leiteninho" id="leiteninho">
+                                <label for="leiteninho">Leite Ninho</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="chocolatebranco" id="chocolatebranco">
+                                <label for="chocolatebranco">Chocolate branco</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="meioamargo" id="meioamargo">
+                                <label for="meioamargo">Chocolate meio amargo</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="morango" id="morango">
+                                <label for="morango">Morango</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="moussemaracuja" id="moussemaracuja">
+                                <label for="moussemaracuja">Mousse de maracujá</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="recheios">
+                        <ul class="lista-recheios">
+                            <li>
+                                <input type="checkbox" name="doceleite" id="doceleite">
+                                <label for="doceleite">Doce de leite</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="mousselimao" id="mousselimao">
+                                <label for="mousselimao">Mousse de limão</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="5leites" id="5leites">
+                                <label for="5leites">5 leites</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="abacaxi" id="abacaxi">
+                                <label for="abacaxi">Abacaxi</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="coco" id="coco">
+                                <label for="coco">Coco</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-input">
+                        <label for="endereco">Imagem de referência <span class="required-field">*</span></label>
+                        <input type="file" multiple accept="image/png, image/jpb" id="images" name="images" required>
+                    </div>
+                    <input type="submit" value="Enviar" class="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

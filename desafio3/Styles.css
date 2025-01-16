@@ -1,0 +1,12 @@
+#box-model {
+    background-color: bisque;
+    color: blueviolet;
+    padding: 20px;
+    border: 5px solid goldenrod;
+    border-radius: 15px;
+    margin: 50px;
+    outline: 5px solid yellow;
+}
+.box-model-titulo {
+    background-color: gainsboro;
+}

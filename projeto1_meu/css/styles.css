@@ -1,0 +1,41 @@
+html {
+    background-color: rgb(247, 200, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 116, 197);
+}
+.container {
+    max-width: 1100px;
+    position: relative;
+    background-color: rgb(205, 250, 252);
+    padding: 30px 50px;
+    margin: 50px auto;
+    border: 2px dashed rgb(240, 158, 240);
+}
+.titulo-principal {
+    font-size: 48px;
+}
+.header {
+    text-align: center;
+}
+.imagem{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.biografia {
+    border: 2px dashed rgb(247, 200, 247);
+    padding: 15px;
+    
+}
+.citacao-container {
+    background-color: rgb(247, 200, 247);
+    padding: 30px;
+    margin-top: 30px;
+}
+.citacao-container blockquote{
+    font-size: 25px;
+    font-weight: bold;
+}
+.citacao-container p{
+    font-style: italic;
+}
