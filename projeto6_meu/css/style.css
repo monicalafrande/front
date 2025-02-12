@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: #593936;
+  color: #d9a9a9;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+#formulario {
+  background-color: #f2a2c0;
+  color: #593936;
+  font-weight: bold;
+  display: flex;
+  max-width: 500px;
+  width: auto;
+  height: 150px;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.labelInput input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: solid 1px #593936;
+  height: 2rem;
+  width: 5rem;
+  margin: auto;
+}
+
+#botaoCalcular {
+  width: 30%;
+  max-width: 200px;
+  margin-top: 16px;
+  margin-right: 10px;
+  height: 3rem;
+  align-self: center;
+  border-radius: 1rem;
+  background-color: #D97398;
+  border: solid 1px #593936;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+#botaoCalcular:hover {
+  background-color: #F2A2C0;
+  color: #A65858;
+}
+
+#containerTabuada {
+  background-color: #f2a2c0;
+  color: #593936;
+  font-weight: bold;
+  max-width: 500px;
+  width: 50%;
+  height: auto;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
+#containerTabuada p {
+  border: solid 1px #593936;
+  padding: 0.5rem;
+  width: 150px;
+  justify-content: center;
+  margin: 0 auto;
+}
